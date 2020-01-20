@@ -1,0 +1,55 @@
+
+
+body {
+    margin: 0 auto;
+    font-family:'Lato', sans-serif;
+    color: #707070;
+    font-size: 1.123rem;
+}
+
+/*Typograpphy */
+h1 {
+    font-size: 3rem;
+    color: #212614;
+    text-align: center;
+}
+
+h1 span {
+    color: #b7843f;
+}
+
+h2 {
+    font-size:1.5rem
+}
+
+p{
+    margin-top: 0;
+}
+
+
+/* Layout */
+.container {
+    width: 90%;
+    max-width: 980px;
+    margin: 0 auto;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+.columns {
+    display: flex;
+    margin: 1em 0;
+
+}
+
+.col-bg{
+    color: #ffffff;
+    background-color: #212614;
+}
+
+.col {
+    padding: 1em;
+}
