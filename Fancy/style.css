@@ -5,7 +5,16 @@ body {
     font-family:'Lato', sans-serif;
     color: #707070;
     font-size: 1.123rem;
+    background: pink;
 }
+
+/* From a minimum width of 400px and bigger */
+@media (min-width: 500px) and (orientation: landscape) {
+    body {
+        background: white;
+    }
+}
+
 
 /*Typograpphy */
 h1 {
@@ -26,13 +35,11 @@ p{
     margin-top: 0;
 }
 
-
 /* Layout */
 .container {
     width: 90%;
     max-width: 980px;
     margin: 0 auto;
-
 }
 
 img {
@@ -42,14 +49,24 @@ img {
 .columns {
     display: flex;
     margin: 1em 0;
+    justify-content: space-between;
 
 }
 
 .col-bg{
     color: #ffffff;
     background-color: #212614;
+    padding: 1em;
 }
 
-.col {
-    padding: 1em;
+.col-1{
+    width: 20%;
+}
+
+.col-2{
+    width: 45%;
+}
+
+.col-3{
+    width: 70%;
 }
