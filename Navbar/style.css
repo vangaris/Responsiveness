@@ -4,7 +4,7 @@
 } */
 
 body {
-    margin : 0;
+    margin: 0;
     font-family: 'ubuntu', sans-serif;
 }
 
@@ -19,7 +19,7 @@ header {
     width: 90%;
     max-width: 900px;
     /* border:1px solid red; */
-    margin:0 auto;
+    margin: 0 auto;
 
 }
 
@@ -45,7 +45,7 @@ p {
     font-weight: 700;
     color: #1792D2;
     margin: 0;
-    font-size: .75em;
+    font-size: 0.75em;
 }
 
 
@@ -58,16 +58,16 @@ nav ul {
     justify-content: center;
 }
 
-nav li{
+nav li {
     margin-left: 2em;
 }
 
 
 nav a {
     text-decoration: none;
-    color:black;
+    color: black;
     font-weight: 400;
-    padding: .25em 0;
+    padding: 0.25em 0;
 }
 
 nav a:hover,
@@ -76,7 +76,7 @@ nav a:focus {
 }
 
 .current-page {
-    border-bottom:1px solid black;
+    border-bottom: 1px solid black;
 }
 
 .current-page:hover {
@@ -84,9 +84,9 @@ nav a:focus {
 }
 
 
-@media (max-width:750px){
+@media screen and (max-width:750px) {
     .container-nav {
-        flex-direction:column;
+        flex-direction: column;
         /* justify-content: center; */
     }
 
@@ -95,7 +95,7 @@ nav a:focus {
     }
 
     nav li {
-        margin: .5em 0;
+        margin: 0.5em 0;
         /* line-height: 2.5; */
     }
 
